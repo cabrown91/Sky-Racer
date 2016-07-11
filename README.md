@@ -9,7 +9,7 @@ The object of the project is to create a minimum 2 player racing game that ident
 <ul>Bootstrap </ul>
 
 <b> Existing Features </b>
-<ul> Ability to move player game piece across the screen. </ul>
+<ul> Ability to move player game piece across the screen (using up, down, left, right keys).</ul>
 
 
 <b>Planned Features</b>
