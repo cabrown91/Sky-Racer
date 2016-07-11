@@ -1,0 +1,40 @@
+body{
+background:white;
+}
+#plane {
+    height: 50px;
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#finishLine{
+  position: absolute;
+  height: 275px;
+  width: 100px;
+}
+#raceTrack{
+  position: absolute;
+  margin-left: 5%;
+  width: 90%;
+  height: 100%;
+  border-top: solid white 75px;
+  border-bottom: solid white 75px;
+}
+#playerAvenir{
+  position: absolute;
+  height: 90px;
+  width: 96px;
+}
+#playerGaramond{
+  position: absolute;
+  height: 190px;
+  width: 150px;
+}
