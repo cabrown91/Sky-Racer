@@ -1,35 +1,26 @@
-console.log("Sanity Check: JS is working!");
+$(document).ready(function() {
 
- $(document).ready(function(){
 
-  // code in here
-  setInterval(movePlane, 20);
-var keys = {};
-
-$(document).keydown(function(e) {
-    keys[e.keyCode] = true;
+$('body').on("keypress", movePlane1);
 });
 
-$(document).keyup(function(e) {
-    delete keys[e.keyCode];
-});
+// code in here
+var Player = function (name) {
+  this.playerName = name;
 
+};
 
-function movePlane() {
-    for (var direction in keys) {
-        if (!keys.hasOwnProperty(direction)) continue;
-        if (direction == 37) {
-            $("#plane").animate({left: "-=5"}, 0);
-        }
-        if (direction == 38) {
-            $("#plane").animate({top: "-=5"}, 0);
-        }
-        if (direction == 39) {
-            $("#plane").animate({left: "+=5"}, 0);
-        }
-        if (direction == 40) {
-            $("#plane").animate({top: "+=5"}, 0);
-        }
+var position1 = 0;
+var movePlane1 = function(e) {
+  if (e.which === 97 && position1 < 100) {
+    position1 += 10;
+    console.log(position1);
+    $('#plane1').animate({
+    left: position1 + "%"
+    }, 100);
+
+    if(position1 === 100) {
+      console.log('player1 wins');
     }
-}
-});
+  }
+};
