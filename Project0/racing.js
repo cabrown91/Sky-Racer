@@ -29,10 +29,11 @@ var movePlane1 = function(e) {
       $('#plane2').animate({
       left: position2 + "%"
       }, 100);
+    }
 
   if(position1 === 100) {
-    console.log('player1 wins');
-  }
-
+    alert('player1 wins');
+  } else if (position2 === 100) {
+    alert('player2 wins');
     }
   };
