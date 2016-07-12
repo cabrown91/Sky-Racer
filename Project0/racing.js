@@ -14,7 +14,6 @@ var position1 = 0;
 var movePlane1 = function(e) {
   if (e.which === 97 && position1 < 100) {
     position1 += 10;
-    console.log(position1);
     $('#plane1').animate({
     left: position1 + "%"
     }, 100);
@@ -25,7 +24,6 @@ var movePlane1 = function(e) {
   var movePlane2 = function(event) {
     if (event.which === 108 && position2 < 100) {
       position2 += 10;
-      console.log(position2);
       $('#plane2').animate({
       left: position2 + "%"
       }, 100);
