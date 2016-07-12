@@ -9,7 +9,6 @@ var Player = function (name) {
   this.playerName = name;
 
 };
-
 var position1 = 0;
 var movePlane1 = function(e) {
   if (e.which === 97 && position1 < 100) {
@@ -19,8 +18,6 @@ var movePlane1 = function(e) {
     left: position1 + "%"
     }, 100);
 
-    if(position1 === 100) {
-      console.log('player1 wins');
-    }
   }
+
 };
