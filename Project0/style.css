@@ -5,10 +5,12 @@ background-image: url("http://opengameart.org/sites/default/files/styles/waterma
 h1 {
   text-align: center;
   padding-bottom: 25px;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 h2 {
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
 }
 #plane1 {
   height: 50px;
