@@ -31,9 +31,12 @@ var movePlane1 = function(e) {
       }, 100);
     }
 
+<<<<<<< HEAD
   if(position1 === 100) {
     alert('player1 wins');
   } else if (position2 === 100) {
     alert('player2 wins');
+=======
+>>>>>>> 7450a27e506192c12ca4897e041853b5b0b3c522
     }
   };
