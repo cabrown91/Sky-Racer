@@ -9,6 +9,8 @@ var Player = function (name) {
   this.playerName = name;
 
 };
+
+
 var position1 = 0;
 var movePlane1 = function(e) {
   if (e.which === 97 && position1 < 100) {
