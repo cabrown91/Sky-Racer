@@ -2,8 +2,8 @@ $(document).ready(function() {
 
 
 $('body').on("keypress", movePlane1);
+$('body').on("keypress", movePlane2);
 });
-
 // code in here
 var Player = function (name) {
   this.playerName = name;
@@ -18,11 +18,21 @@ var movePlane1 = function(e) {
     $('#plane1').animate({
     left: position1 + "%"
     }, 100);
+}
+  };
 
-  }
+  var position2 = 0;
+  var movePlane2 = function(event) {
+    if (event.which === 108 && position2 < 100) {
+      position2 += 10;
+      console.log(position2);
+      $('#plane2').animate({
+      left: position2 + "%"
+      }, 100);
 
   if(position1 === 100) {
     console.log('player1 wins');
   }
 
-};
+    }
+  };
