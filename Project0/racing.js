@@ -30,9 +30,5 @@ var movePlane1 = function(e) {
       left: position2 + "%"
       }, 100);
 
-  if(position1 === 100) {
-    console.log('player1 wins');
-  }
-
     }
   };
