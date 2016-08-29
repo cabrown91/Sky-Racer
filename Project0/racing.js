@@ -29,9 +29,9 @@ var movePlane1 = function(e) {
       }, 100);
     }
 
-  if(position1 === 100) {
-    alert('player1 wins');
-  } else if (position2 === 100) {
-    alert('player2 wins');
-    }
-  };
+    if(position1 === 100) {
+      $("body").append("Player 1 Wins!");
+    } else if (position2 === 100) {
+      $("body").append("Player 2 Wins!");
+      }
+    };
