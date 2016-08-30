@@ -1,24 +1,37 @@
 # Project 0
 
-http://quality-controller-commendation-38054.bitballoon.com/
+<br>[Sky Racer](http://quality-controller-commendation-38054.bitballoon.com/)
 
-<b>Racing Game</b>
-The object of the project is to create a minimum 2 player racing game that identifies a winner.
+<p><b>Racing Game</b>
+The object of the project is to create a minimum 2 player racing game that identifies a winner.</p>
 
-<b> Technologies Used </b>
+<p><b> Technologies Used </b></p>
+
 <ul> HTML/CSS</ul>
+
 <ul>jQuery (animate event listener)</ul>
+
 <ul>Bootstrap </ul>
 
-<b> Existing Features </b>
-<ul>Two player racing game </ul>
-<ul> Ability to move player game pieces across the screen (using A and L keys).</ul>
-<ul>Logic that determines who won the game.</ul>
+<p><b> Existing Features </b></p>
 
-<b>Planned Features</b>
-<ul>Allow users to enter a unique name for their game piece. </ul>
+<ul> Two player racing game.</ul>
 
-<b> To Do: </b>
-<ul> Add a scoreboard to the game. </ul>
+<ul> Ability to move player game piece across the screen (using up, down, left, right keys).</ul>
+
+<ul> Logic to determine who won the game.</ul>
+
+<p><b>Planned Features</b></p>
+
+<ul> Ability for player to enter a unique name for their game piece.</ul>
+
+<p><b> To Do: </b>
+
+<ul> Bug Fix: On game reset, move game pieces all the way back to spot 0 on the race track without refresh. </ul>
+
+<ul> Bug Fix: On game reset, game pieces are auto-reset and can't move in previous game. </ul>
+
+</p>
+
 
 
